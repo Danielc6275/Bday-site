@@ -9,8 +9,41 @@ Also, consider how you should select the image
 (class vs id vs element selector).
 */
 
-.happy-monkey {
-  font-family: "Happy Monkey", system-ui;
-  font-weight: 400;
-  font-style: normal;
+body {
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background: #a2d2ff;
+    color: #ffffff;
 }
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shadowing {
+    text-shadow: 0px 0px 1px black;
+}
+
+#Nick {
+    border-radius: 50%;
+    width: 200px;
+    border: 8px solid #EFB0C9;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 8px 16px;
+    border-radius: 8px;
+} 
+
+#bday-date {
+    background: #EFB0C9;
+    padding: 7px 14px;
+    border-radius: 5px;
+}
+
+/* Heading elements are by default display: block; */
