@@ -14,7 +14,7 @@ body {
     font-family: "Happy Monkey", system-ui;
     font-weight: 400;
     font-style: normal;
-    background: #a2d2ff;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
     color: #ffffff;
 }
 
@@ -28,9 +28,9 @@ body {
     text-shadow: 0px 0px 1px black;
 }
 
-#Nick {
-    border-radius: 50%;
-    width: 200px;
+#Mike {
+    border-radius: 25%;
+    width: 250px;
     border: 8px solid #EFB0C9;
 }
 
@@ -53,11 +53,7 @@ body {
 
 }
 
-.happy {
-    margin-bottom: 10;
-}
-
-.hover {
+.hover-hint {
     margin-top: 0;
     margin-bottom: 30px;
 }
@@ -76,10 +72,58 @@ body {
     margin-right: auto;
 }
 
-.gift:hover {
+#gift-friends:hover {
     background-image: url("images/happy.gif");
     background-size: cover;
     height: 400px;
+}
+
+#gift-bear:hover {
+    background-image: url("images/cool.gif");
+    background-size: cover;
+    height: 400px;
+}
+
+#gift-genius:hover {
+    background-image: url("images/genius.gif");
+    background-size: cover;
+    height: 400px;
+}
+
+#gift-norris:hover {
+    background-image: url("images/norris.gif");
+    background-size: cover;
+    height: 400px;
+}
+
+#gift-laser:hover {
+    background-image: url("images/laser.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+#gift-cheers {
+    height: 300px;
+}
+
+#gift-cheers:hover {
+    background-image: url("images/Cheers.gif");
+    background-size: cover;
+    height: 250px;
+    background-position: center 43%;
+}
+
+
+#footer {
+    font-size: 16px;
+    width: 400px;
+    font-style: italic;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 /* Heading elements are by default display: block; 
